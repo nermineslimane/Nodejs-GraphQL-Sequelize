@@ -1,5 +1,5 @@
 const userResolvers = require('./user.js');
-//const postResolvers = require('./post');
-//const commentResolvers = require('./comment');
+const postResolvers = require('./post');
+const commentResolvers = require('./comment');
 
-module.exports = [userResolvers];
+module.exports = [userResolvers, postResolvers, commentResolvers];
